@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Penalty Game</title>
+    <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+    <h1>⚽ Penalty Shootout ⚽</h1>
+    <p>Pilih arah tendangan:</p>
+
+    <div id="field">
+        <div id="goal">
+            <div id="keeper"></div>
+        </div>
+    </div>
+
+    <div id="buttons">
+        <button onclick="shoot('left')">Kiri</button>
+        <button onclick="shoot('center')">Tengah</button>
+        <button onclick="shoot('right')">Kanan</button>
+    </div>
+
+    <h2 id="result"></h2>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
